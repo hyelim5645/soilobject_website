@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --color-paper: #f4efe6;
+  --color-paper-dim: #ece5d8;
+  --color-ink: #1c1a17;
+  --color-ink-soft: #2a2622;
+  --color-mist-500: #8a8479;
+  --color-mist-300: #c7c0b2;
+  --color-wood-600: #8a6a4f;
+  --tracking-label: 0.2em;
+
+  /* shadcn/ui Button tokens, mapped onto this project's own palette above
+     (not shadcn's default zinc theme) so components/ui primitives stay
+     on-brand. */
+  --color-background: var(--color-paper);
+  --color-foreground: var(--color-ink);
+  --color-primary: var(--color-ink);
+  --color-primary-foreground: var(--color-paper);
+  --color-secondary: var(--color-paper-dim);
+  --color-secondary-foreground: var(--color-ink);
+  --color-accent: var(--color-paper-dim);
+  --color-accent-foreground: var(--color-ink);
+  --color-destructive: #b3261e;
+  --color-destructive-foreground: var(--color-paper);
+  --color-input: var(--color-mist-300);
+  --color-ring: var(--color-wood-600);
+}
+
+@theme inline {
+  --color-paper: var(--color-paper);
+  --color-paper-dim: var(--color-paper-dim);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-mist-500: var(--color-mist-500);
+  --color-mist-300: var(--color-mist-300);
+  --color-wood-600: var(--color-wood-600);
+  --tracking-label: var(--tracking-label);
+  --font-sans: var(--font-pretendard);
+  --font-display: var(--font-display);
+
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-secondary: var(--color-secondary);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+  --color-accent: var(--color-accent);
+  --color-accent-foreground: var(--color-accent-foreground);
+  --color-destructive: var(--color-destructive);
+  --color-destructive-foreground: var(--color-destructive-foreground);
+  --color-input: var(--color-input);
+  --color-ring: var(--color-ring);
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans), sans-serif;
+}
+
+.label-uppercase {
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+}

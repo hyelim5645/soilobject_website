@@ -1,0 +1,38 @@
+[
+  {
+    "id": "pr01",
+    "title": "Shaburo 21, Seoul",
+    "location": "서울",
+    "category": "레스토랑",
+    "image": { "src": null, "alt": "Shaburo 21, Seoul", "width": 1000, "height": 1250 },
+    "featuredObjectName": "Ambient Table",
+    "featuredObjectSlug": "ambient-table-lamp"
+  },
+  {
+    "id": "pr02",
+    "title": "Casa Ferrari Pop-up, Seongsu",
+    "location": "성수",
+    "category": "팝업 스토어",
+    "image": { "src": null, "alt": "Casa Ferrari Pop-up, Seongsu", "width": 1000, "height": 1250 },
+    "featuredObjectName": "Wood Bench",
+    "featuredObjectSlug": "wood-bench"
+  },
+  {
+    "id": "pr03",
+    "title": "Korea Water Resources Corp.",
+    "location": "대전",
+    "category": "오피스",
+    "image": { "src": null, "alt": "Korea Water Resources Corp.", "width": 1000, "height": 1250 },
+    "featuredObjectName": "Plant Stand",
+    "featuredObjectSlug": "plant-stand-oak"
+  },
+  {
+    "id": "pr04",
+    "title": "Private Residence, Seoul",
+    "location": "서울",
+    "category": "주거",
+    "image": { "src": null, "alt": "Private Residence, Seoul", "width": 1000, "height": 1250 },
+    "featuredObjectName": "Stone Vase",
+    "featuredObjectSlug": "stone-vase"
+  }
+]

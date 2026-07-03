@@ -1,0 +1,47 @@
+[
+  {
+    "id": "j01",
+    "slug": "why-hotels-use-flowers",
+    "title": "호텔은 왜 꽃을 두는가",
+    "excerpt": "공간에 생기를 더하는 가장 오래된 방법에 대하여.",
+    "content": "호텔 로비의 꽃 장식은 단순한 장식이 아니라 공간의 온도를 조절하는 장치입니다. 계절의 변화를 실내로 들여오는 방식, 그리고 소일 스튜디오가 오브제를 큐레이션할 때 함께 고려하는 지점들을 소개합니다.",
+    "publishedAt": "2026-05-20T00:00:00.000Z",
+    "coverImage": { "src": null, "alt": "Why Hotels Use Flowers", "width": 800, "height": 600 }
+  },
+  {
+    "id": "j02",
+    "slug": "the-balance-of-green",
+    "title": "그린의 균형",
+    "excerpt": "식물과 오브제 사이의 거리감을 만드는 법.",
+    "content": "너무 많은 식물은 공간을 산만하게 만들고, 너무 적은 식물은 공간을 차갑게 만듭니다. 균형점을 찾는 소일 스튜디오의 기준을 공유합니다.",
+    "publishedAt": "2026-05-08T00:00:00.000Z",
+    "coverImage": { "src": null, "alt": "The Balance of Green", "width": 800, "height": 600 }
+  },
+  {
+    "id": "j03",
+    "slug": "eastern-minimalism",
+    "title": "동양적 미니멀리즘",
+    "excerpt": "여백이 채움보다 많은 것을 말할 때.",
+    "content": "비어 있음을 두려워하지 않는 것. 동양적 미니멀리즘은 채우기보다 덜어내는 감각에서 시작합니다.",
+    "publishedAt": "2026-04-25T00:00:00.000Z",
+    "coverImage": { "src": null, "alt": "Eastern Minimalism", "width": 800, "height": 600 }
+  },
+  {
+    "id": "j04",
+    "slug": "natural-texture",
+    "title": "자연의 질감",
+    "excerpt": "돌, 나무, 흙이 만드는 촉각적 경험.",
+    "content": "매끈함보다 거친 결을, 완벽함보다 자연스러움을 택하는 것. 소일 스튜디오가 소재를 고르는 방식입니다.",
+    "publishedAt": "2026-04-10T00:00:00.000Z",
+    "coverImage": { "src": null, "alt": "Natural Texture", "width": 800, "height": 600 }
+  },
+  {
+    "id": "j05",
+    "slug": "plant-styling-guide",
+    "title": "플랜트 스타일링 가이드",
+    "excerpt": "화분 하나로 공간의 인상을 바꾸는 법.",
+    "content": "화분의 위치, 화병의 형태, 빛이 드는 방향까지. 작은 식물 하나로 공간의 인상을 바꾸는 실전 가이드입니다.",
+    "publishedAt": "2026-03-28T00:00:00.000Z",
+    "coverImage": { "src": null, "alt": "Plant Styling Guide", "width": 800, "height": 600 }
+  }
+]

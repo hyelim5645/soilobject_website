@@ -1,0 +1,218 @@
+[
+  {
+    "id": "p01",
+    "slug": "ambient-table-lamp",
+    "name": "앰비언트 테이블 램프",
+    "nameEn": "Ambient Table",
+    "displayNumber": "No.01",
+    "category": "lamp",
+    "price": 128000,
+    "shortDescription": "한지 갓과 원목 프레임의 은은한 조명",
+    "description": "불을 켜면 한지 사이로 빛이 스며듭니다. 원목 프레임 위에 자리한 조명 하나로, 방 전체의 온도가 달라집니다.",
+    "images": [
+      { "src": null, "alt": "앰비언트 테이블 램프 정면", "width": 1200, "height": 1500 },
+      { "src": null, "alt": "앰비언트 테이블 램프 디테일", "width": 1200, "height": 1500 }
+    ],
+    "stock": 12,
+    "material": "원목, 한지",
+    "dimensions": { "width": 220, "depth": 220, "height": 420, "unit": "mm" },
+    "featured": true,
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "p02",
+    "slug": "moonlight-floor-lamp",
+    "name": "문라이트 플로어 램프",
+    "nameEn": "Moonlight Floor",
+    "category": "lamp",
+    "price": 216000,
+    "shortDescription": "달빛처럼 은은한 대형 플로어 조명",
+    "description": "높은 층고의 공간에 어울리는 플로어 스탠드 조명입니다. 부드럽게 확산되는 빛으로 저녁 시간의 분위기를 완성합니다.",
+    "images": [
+      { "src": null, "alt": "문라이트 플로어 램프 정면", "width": 1200, "height": 1500 }
+    ],
+    "stock": 6,
+    "material": "원목, 린넨",
+    "dimensions": { "width": 380, "depth": 380, "height": 1400, "unit": "mm" },
+    "createdAt": "2026-02-02T00:00:00.000Z"
+  },
+  {
+    "id": "p03",
+    "slug": "paper-wall-sconce",
+    "name": "페이퍼 벽조명",
+    "nameEn": "Paper Sconce",
+    "category": "lamp",
+    "price": 84000,
+    "shortDescription": "복도와 계단에 어울리는 벽부형 조명",
+    "description": "한지의 질감을 살린 벽부형 조명으로 복도, 계단, 현관에 은은한 포인트를 더합니다.",
+    "images": [
+      { "src": null, "alt": "페이퍼 벽조명 정면", "width": 1200, "height": 1500 }
+    ],
+    "stock": 20,
+    "material": "황동, 한지",
+    "dimensions": { "width": 160, "depth": 90, "height": 240, "unit": "mm" },
+    "createdAt": "2026-02-18T00:00:00.000Z"
+  },
+  {
+    "id": "p04",
+    "slug": "stone-vase",
+    "name": "스톤 베이스",
+    "nameEn": "Stone Vase",
+    "displayNumber": "No.02",
+    "category": "vase",
+    "price": 68000,
+    "shortDescription": "돌의 질감을 살린 미니멀 화병",
+    "description": "가지 하나만 꽂아도 됩니다. 거친 표면과 매끈한 마감이 만나, 빈 공간을 채우지 않고도 시선을 붙잡습니다.",
+    "images": [
+      { "src": null, "alt": "스톤 베이스 정면", "width": 1200, "height": 1500 },
+      { "src": null, "alt": "스톤 베이스 측면", "width": 1200, "height": 1500 }
+    ],
+    "stock": 15,
+    "material": "세라믹",
+    "dimensions": { "width": 140, "depth": 140, "height": 210, "unit": "mm" },
+    "featured": true,
+    "createdAt": "2026-01-20T00:00:00.000Z"
+  },
+  {
+    "id": "p05",
+    "slug": "sand-textured-vase",
+    "name": "샌드 텍스처 화병",
+    "nameEn": "Sand Vase",
+    "category": "vase",
+    "price": 54000,
+    "shortDescription": "모래 질감의 낮은 화병",
+    "description": "낮고 넓은 형태로 마른 가지나 짧은 꽃과 잘 어울리는 화병입니다.",
+    "images": [
+      { "src": null, "alt": "샌드 텍스처 화병 정면", "width": 1200, "height": 1500 }
+    ],
+    "stock": 18,
+    "material": "세라믹",
+    "dimensions": { "width": 180, "depth": 180, "height": 120, "unit": "mm" },
+    "createdAt": "2026-03-01T00:00:00.000Z"
+  },
+  {
+    "id": "p06",
+    "slug": "tall-ink-vase",
+    "name": "잉크 롱넥 화병",
+    "nameEn": "Ink Long-neck",
+    "category": "vase",
+    "price": 76000,
+    "shortDescription": "긴 목선의 다크 톤 화병",
+    "description": "가늘고 긴 목선이 우아한 다크 톤 화병으로 마른 꽃, 나뭇가지와 잘 어울립니다.",
+    "images": [
+      { "src": null, "alt": "잉크 롱넥 화병 정면", "width": 1200, "height": 1500 }
+    ],
+    "stock": 10,
+    "material": "세라믹",
+    "dimensions": { "width": 120, "depth": 120, "height": 320, "unit": "mm" },
+    "createdAt": "2026-03-10T00:00:00.000Z"
+  },
+  {
+    "id": "p07",
+    "slug": "plant-stand-oak",
+    "name": "오크 플랜트 스탠드",
+    "nameEn": "Plant Stand",
+    "displayNumber": "No.03",
+    "category": "plant-stand",
+    "price": 96000,
+    "shortDescription": "원목 다리의 식물 스탠드",
+    "description": "가는 다리 네 개가 화분 하나를 들어 올립니다. 그 높이 차이만으로, 창가는 작은 갤러리가 됩니다.",
+    "images": [
+      { "src": null, "alt": "오크 플랜트 스탠드 정면", "width": 1200, "height": 1500 },
+      { "src": null, "alt": "오크 플랜트 스탠드 디테일", "width": 1200, "height": 1500 }
+    ],
+    "stock": 9,
+    "material": "원목(오크)",
+    "dimensions": { "width": 320, "depth": 320, "height": 480, "unit": "mm" },
+    "featured": true,
+    "createdAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "p08",
+    "slug": "low-plant-stool",
+    "name": "로우 플랜트 스툴",
+    "nameEn": "Low Plant Stool",
+    "category": "plant-stand",
+    "price": 72000,
+    "shortDescription": "낮은 높이의 원형 식물 스툴",
+    "description": "낮고 안정적인 형태로 큰 화분을 올리기에 적합한 스툴형 스탠드입니다.",
+    "images": [
+      { "src": null, "alt": "로우 플랜트 스툴 정면", "width": 1200, "height": 1500 }
+    ],
+    "stock": 14,
+    "material": "원목(월넛)",
+    "dimensions": { "width": 300, "depth": 300, "height": 260, "unit": "mm" },
+    "createdAt": "2026-02-14T00:00:00.000Z"
+  },
+  {
+    "id": "p09",
+    "slug": "tiered-plant-rack",
+    "name": "티어드 플랜트 랙",
+    "nameEn": "Tiered Rack",
+    "category": "plant-stand",
+    "price": 154000,
+    "shortDescription": "여러 화분을 위한 계단식 랙",
+    "description": "3단으로 구성되어 여러 개의 화분을 층층이 연출할 수 있는 플랜트 랙입니다.",
+    "images": [
+      { "src": null, "alt": "티어드 플랜트 랙 정면", "width": 1200, "height": 1500 }
+    ],
+    "stock": 5,
+    "material": "원목(오크), 스틸",
+    "dimensions": { "width": 500, "depth": 300, "height": 720, "unit": "mm" },
+    "createdAt": "2026-03-20T00:00:00.000Z"
+  },
+  {
+    "id": "p10",
+    "slug": "wood-bench",
+    "name": "원목 벤치",
+    "nameEn": "Wood Bench",
+    "displayNumber": "No.04",
+    "category": "bench",
+    "price": 248000,
+    "shortDescription": "하나의 원목을 깎아 만든 벤치",
+    "description": "원목 한 덩이를 그대로 깎았습니다. 앉아도 되고, 무언가를 올려두어도 됩니다 — 정해진 쓰임이 없다는 것이 이 벤치의 쓰임입니다.",
+    "images": [
+      { "src": null, "alt": "원목 벤치 정면", "width": 1200, "height": 1500 },
+      { "src": null, "alt": "원목 벤치 측면", "width": 1200, "height": 1500 }
+    ],
+    "stock": 4,
+    "material": "원목(월넛)",
+    "dimensions": { "width": 1100, "depth": 320, "height": 400, "unit": "mm" },
+    "featured": true,
+    "createdAt": "2026-01-05T00:00:00.000Z"
+  },
+  {
+    "id": "p11",
+    "slug": "entry-bench",
+    "name": "엔트리 벤치",
+    "nameEn": "Entry Bench",
+    "category": "bench",
+    "price": 198000,
+    "shortDescription": "현관을 위한 슬림 벤치",
+    "description": "좁은 현관에도 부담 없이 놓을 수 있는 슬림한 형태의 벤치입니다.",
+    "images": [
+      { "src": null, "alt": "엔트리 벤치 정면", "width": 1200, "height": 1500 }
+    ],
+    "stock": 7,
+    "material": "원목(오크)",
+    "dimensions": { "width": 900, "depth": 280, "height": 420, "unit": "mm" },
+    "createdAt": "2026-02-25T00:00:00.000Z"
+  },
+  {
+    "id": "p12",
+    "slug": "window-daybed-bench",
+    "name": "윈도우 데이베드 벤치",
+    "nameEn": "Window Daybed",
+    "category": "bench",
+    "price": 312000,
+    "shortDescription": "창가에 어울리는 롱 벤치",
+    "description": "긴 창가 자리에 놓기 좋은 롱 벤치로, 쿠션을 더해 데이베드처럼 활용할 수 있습니다.",
+    "images": [
+      { "src": null, "alt": "윈도우 데이베드 벤치 정면", "width": 1200, "height": 1500 }
+    ],
+    "stock": 0,
+    "material": "원목(월넛)",
+    "dimensions": { "width": 1600, "depth": 400, "height": 400, "unit": "mm" },
+    "createdAt": "2026-03-28T00:00:00.000Z"
+  }
+]
