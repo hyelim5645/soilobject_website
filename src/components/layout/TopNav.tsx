@@ -15,7 +15,11 @@ export function TopNav() {
   return (
     <header className="sticky top-0 z-50 border-b border-mist-300/60 bg-paper/95 backdrop-blur">
       <Container className="flex h-16 items-center justify-between md:h-20">
-        <Link href="/" className="flex shrink-0 items-center" aria-label={SITE_NAME}>
+        <Link
+          href="/"
+          className="flex shrink-0 items-center transition-opacity hover:opacity-70"
+          aria-label={`${SITE_NAME} 홈으로 이동`}
+        >
           <Image
             src="/logo/soil-logo-mark.png"
             alt={SITE_NAME}
