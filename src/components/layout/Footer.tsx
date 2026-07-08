@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { SITE_NAME, SITE_NAME_KO } from "@/lib/utils/constants";
 
@@ -7,10 +8,14 @@ export function Footer() {
     <footer className="border-t border-ink/10 bg-paper-dim py-12 text-ink">
       <Container className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
         <div>
-          <p className="label-uppercase text-sm font-semibold tracking-[0.25em]">
-            {SITE_NAME}
-          </p>
-          <p className="mt-2 text-sm text-mist-500">
+          <Image
+            src="/logo/soil-logo-full.png"
+            alt={SITE_NAME}
+            width={2387}
+            height={2784}
+            className="h-24 w-auto"
+          />
+          <p className="mt-4 text-sm text-mist-500">
             © {new Date().getFullYear()} {SITE_NAME_KO}. All rights reserved.
           </p>
         </div>

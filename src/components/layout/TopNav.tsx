@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { Container } from "@/components/ui/Container";
 import { LanguageSwitch } from "@/components/ui/LanguageSwitch";
@@ -14,11 +15,15 @@ export function TopNav() {
   return (
     <header className="sticky top-0 z-50 border-b border-mist-300/60 bg-paper/95 backdrop-blur">
       <Container className="flex h-16 items-center justify-between md:h-20">
-        <Link
-          href="/"
-          className="label-uppercase shrink-0 text-xs font-semibold tracking-[0.15em] text-ink sm:text-sm sm:tracking-[0.25em]"
-        >
-          {SITE_NAME}
+        <Link href="/" className="flex shrink-0 items-center" aria-label={SITE_NAME}>
+          <Image
+            src="/logo/soil-logo-mark.png"
+            alt={SITE_NAME}
+            width={40}
+            height={40}
+            priority
+            className="h-9 w-9 sm:h-10 sm:w-10"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
