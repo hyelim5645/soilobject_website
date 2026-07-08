@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useRef } from "react";
 import { motion, type Variants } from "framer-motion";
-import { PlaceholderImage } from "@/components/ui/PlaceholderImage";
 import { Button } from "@/components/ui/button";
-import { IMAGE_SLOTS, SITE_NAME_KO } from "@/lib/utils/constants";
+import { SITE_NAME_KO } from "@/lib/utils/constants";
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -24,22 +24,30 @@ const itemVariants: Variants = {
 };
 
 export function Hero() {
-  const heroImage = {
-    src: "/hero/hero-01.png",
-    alt: "이끼 정원과 앰비언트 조명이 있는 실내 정경",
-    width: IMAGE_SLOTS.hero.width,
-    height: IMAGE_SLOTS.hero.height,
-  };
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    ).matches;
+    if (prefersReducedMotion) {
+      videoRef.current?.pause();
+    }
+  }, []);
 
   return (
     <section className="relative flex min-h-[85vh] items-center overflow-hidden bg-ink text-paper">
-      <PlaceholderImage
-        image={heroImage}
-        tone="dark"
-        priority
-        sizes="100vw"
-        className="absolute inset-0 h-full w-full"
-      />
+      <video
+        ref={videoRef}
+        className="absolute inset-0 h-full w-full object-cover"
+        poster="/hero/hero-poster.jpg"
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="/hero/hero-video.mp4" type="video/mp4" />
+      </video>
       <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-ink/20 to-transparent" />
 
       <motion.div
