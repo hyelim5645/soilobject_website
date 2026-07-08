@@ -6,21 +6,25 @@ import type { ReactNode } from "react";
 
 // Shared scroll-reveal primitives so every homepage section unfurls the same
 // way Hero's title/subtitle/buttons do, instead of just snapping into view.
+// Trigger point is pushed inward (viewport margin) and the motion is slower
+// than a typical UI micro-interaction, on purpose: at a normal scroll speed a
+// quick/early-firing reveal finishes before the section is even centered on
+// screen, which reads as "nothing happened" rather than as a reveal.
 const containerVariants: Variants = {
   hidden: {},
-  visible: { transition: { staggerChildren: 0.15 } },
+  visible: { transition: { staggerChildren: 0.18 } },
 };
 
 const itemVariants: Variants = {
-  hidden: { y: 28, opacity: 0 },
-  visible: { y: 0, opacity: 1, transition: { duration: 0.7, ease: "easeOut" } },
+  hidden: { y: 40, opacity: 0 },
+  visible: { y: 0, opacity: 1, transition: { duration: 1, ease: "easeOut" } },
 };
 
 /** Wraps a section's direct children (each must be Reveal.Item or RevealGrid) so they stagger in as the section scrolls into view. */
 export function Reveal({
   children,
   className,
-  amount = 0.2,
+  amount = 0.3,
 }: {
   children: ReactNode;
   className?: string;
@@ -32,7 +36,7 @@ export function Reveal({
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, amount }}
+      viewport={{ once: true, amount, margin: "0px 0px -20% 0px" }}
     >
       {children}
     </motion.div>
