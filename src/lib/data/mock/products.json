@@ -10,7 +10,7 @@
     "shortDescription": "한지 갓과 원목 프레임의 은은한 조명",
     "description": "불을 켜면 한지 사이로 빛이 스며듭니다. 원목 프레임 위에 자리한 조명 하나로, 방 전체의 온도가 달라집니다.",
     "images": [
-      { "src": null, "alt": "앰비언트 테이블 램프 정면", "width": 1200, "height": 1500 },
+      { "src": "/products/ambient-table-lamp-1.jpg", "alt": "앰비언트 테이블 램프 정면", "width": 1200, "height": 1500 },
       { "src": null, "alt": "앰비언트 테이블 램프 디테일", "width": 1200, "height": 1500 }
     ],
     "stock": 12,
@@ -64,7 +64,7 @@
     "shortDescription": "돌의 질감을 살린 미니멀 화병",
     "description": "가지 하나만 꽂아도 됩니다. 거친 표면과 매끈한 마감이 만나, 빈 공간을 채우지 않고도 시선을 붙잡습니다.",
     "images": [
-      { "src": null, "alt": "스톤 베이스 정면", "width": 1200, "height": 1500 },
+      { "src": "/products/stone-vase-1.jpg", "alt": "스톤 베이스 정면", "width": 1200, "height": 1500 },
       { "src": null, "alt": "스톤 베이스 측면", "width": 1200, "height": 1500 }
     ],
     "stock": 15,
@@ -118,7 +118,7 @@
     "shortDescription": "원목 다리의 식물 스탠드",
     "description": "가는 다리 네 개가 화분 하나를 들어 올립니다. 그 높이 차이만으로, 창가는 작은 갤러리가 됩니다.",
     "images": [
-      { "src": null, "alt": "오크 플랜트 스탠드 정면", "width": 1200, "height": 1500 },
+      { "src": "/products/plant-stand-oak-1.jpg", "alt": "오크 플랜트 스탠드 정면", "width": 1200, "height": 1500 },
       { "src": null, "alt": "오크 플랜트 스탠드 디테일", "width": 1200, "height": 1500 }
     ],
     "stock": 9,
@@ -172,7 +172,7 @@
     "shortDescription": "하나의 원목을 깎아 만든 벤치",
     "description": "원목 한 덩이를 그대로 깎았습니다. 앉아도 되고, 무언가를 올려두어도 됩니다 — 정해진 쓰임이 없다는 것이 이 벤치의 쓰임입니다.",
     "images": [
-      { "src": null, "alt": "원목 벤치 정면", "width": 1200, "height": 1500 },
+      { "src": "/products/wood-bench-1.jpg", "alt": "원목 벤치 정면", "width": 1200, "height": 1500 },
       { "src": null, "alt": "원목 벤치 측면", "width": 1200, "height": 1500 }
     ],
     "stock": 4,
